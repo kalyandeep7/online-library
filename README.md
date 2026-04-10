@@ -1,16 +1,58 @@
-# React + Vite
+Online Library System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Link - https://github.com/kalyandeep7/online-library
 
-Currently, two official plugins are available:
+Project Overview - 
+This project is a React-based Online Library System that allows users to browse, search, view, and add books. It is built using Vite + React, with React Router for navigation and Redux Toolkit for state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features - 
 
-## React Compiler
+Home Page - 
+Welcome message
+Book categories (Fiction, Non-Fiction, Sci-Fi, etc.)
+Popular books displayed as cards
+Navigation bar with links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse Books - 
+View all books
+Filter books by category using dynamic routing
+Search books by title or author
+"View Details" option for each book
 
-## Expanding the ESLint configuration
+Book Details - 
+Displays full details of a selected book
+Back button to return to Browse page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add Book - 
+Form to add a new book
+Uses Redux Toolkit for state management
+Form validation for required fields
+Newly added book appears at the top
+Redirects to Browse Books page after submission
+
+404 Page - 
+Handles undefined routes
+Displays invalid URL
+Includes link back to Home page
+
+Technologies Used - 
+React (with Vite)
+React Router DOM
+Redux Toolkit
+CSS / Tailwind / Bootstrap
+
+Usage - 
+Navigate through the app using the Navbar
+Browse books by category or search
+Click "View Details" to see more info
+Add new books using the form
+
+Notes - 
+Dummy data is used for initial book collection
+State is managed globally using Redux
+Routing is handled using React Router
+
+Submission Details - 
+Project created using Vite
+Includes at least 10 meaningful Git commits
+Code includes comments for better readability
